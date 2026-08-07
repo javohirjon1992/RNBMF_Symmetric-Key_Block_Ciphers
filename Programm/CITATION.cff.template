@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software in academic work, please cite the archived release."
+title: "RNBMF Dynamic S-Box Laboratory"
+version: 1.0.0
+date-released: 2026-08-07
+authors:
+  - family-names: "YOUR_FAMILY_NAME"
+    given-names: "YOUR_GIVEN_NAME"
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME"
+# After creating a Zenodo release, add:
+# doi: "YOUR_ZENODO_DOI"
+# repository-artifact: "https://doi.org/YOUR_ZENODO_DOI"

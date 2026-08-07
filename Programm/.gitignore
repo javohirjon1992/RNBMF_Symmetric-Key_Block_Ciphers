@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated experiment output
+outputs/*.csv
+outputs/*.json
+outputs/*.log
+!outputs/.gitkeep
+
+# Local archives / builds
+*.zip
+build/
+dist/
+*.egg-info/
