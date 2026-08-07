@@ -186,58 +186,7 @@ See [`docs/CSV_SCHEMA.md`](docs/CSV_SCHEMA.md) for the detailed schema descripti
 - Tkinter
 
 Tkinter is included with the standard Python installer on Windows. On some Linux distributions it must be installed separately, for example through the system package manager as `python3-tk`.
-
----
-
-## Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/RNBMF-Dynamic-SBox-Laboratory.git
-cd RNBMF-Dynamic-SBox-Laboratory
-```
-
-### Install Python dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### Start the application
-
-```bash
-python app.py
-```
-
----
-
-## Windows
-
-Run from a terminal:
-
-```bat
-python app.py
-```
-
-or double-click:
-
-```text
-run_windows.bat
-```
-
----
-
-## Linux
-
-```bash
-chmod +x run_linux.sh
-./run_linux.sh
-```
-
-If Tkinter is not installed, install the appropriate Tk package for your Linux distribution before starting the application.
-
----
+ 
 
 ## Typical workflow
 
@@ -330,40 +279,3 @@ The program separates several conceptually different forms of evaluation:
 These criteria should be interpreted jointly. A favourable value for one metric does not prove overall cryptographic security, and complete-cipher security additionally depends on the round function, diffusion layer, key schedule, number of rounds, implementation, and attack model.
 
 Additional methodological discussion is provided in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md).
-
----
-
-## Research data and publication use
-
-For a journal submission or reproducibility package, a recommended workflow is:
-
-1. publish the source code in this GitHub repository;
-2. commit the exact version used for the reported experiments;
-3. create a versioned GitHub release, e.g. `v1.0.0`;
-4. archive the release in a DOI-assigning repository such as Zenodo;
-5. add the assigned DOI to the manuscript's **Code Availability** section and to `CITATION.cff`;
-6. preserve the exported CSV files associated with the published experiment.
-
----
-
-## Citation
-
-A [`CITATION.cff.template`](CITATION.cff.template) file is included. Replace the author/repository placeholders and rename it to:
-
-```text
-CITATION.cff
-```
-
-After a DOI is assigned, add the DOI and release metadata to the citation file.
-
----
-
-## License
-
-This prepared repository does not select a software license automatically. Add an explicit `LICENSE` file before public release according to the intended reuse conditions. Common permissive choices for academic software include MIT and BSD-3-Clause.
-
----
-
-## Disclaimer
-
-This software is intended for cryptographic research, experimentation, reproducibility, and education. Numerical S-box metrics produced by the application should be interpreted within the stated mathematical definitions and should not be treated as a standalone certification of complete-cipher security.
